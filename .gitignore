@@ -2,3 +2,4 @@
 /node_modules
 /themes/landscape
 .DS_Store
+.deploy_git
