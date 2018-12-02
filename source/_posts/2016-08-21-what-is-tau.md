@@ -1,7 +1,8 @@
 ---
 title: tau是什么
 date: 2016-08-21 20:48:45
-tags:
+categories: 聊点感想
+tags: tau
 ---
 
 τ是希腊的第十九个字母，美国英语是tau，国际音标/tau/。
@@ -31,3 +32,5 @@ So, please call me tau.
 
 
   [1]: http://www.guokr.com/article/58678/
+
+

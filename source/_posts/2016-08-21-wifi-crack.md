@@ -4,6 +4,7 @@ date: 2016-08-21 23:32:38
 categories: 弄点工具
 tags:
   - WiFi
+  - crack
 ---
 
 WiFi常用的安全机制有三种：WEP、WPA、WPA2。
@@ -52,3 +53,5 @@ WiFi密码破解的方法就是这些，总的来说，要保证WiFi的足够安
   [4]: http://www.colasoft.com.cn/download/capsa.php
   [5]: http://cn.elcomsoft.com/ewsa.html
   [6]: http://code.google.com/p/reaver-wps/
+
+

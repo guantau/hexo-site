@@ -23,7 +23,7 @@
     * verbosity=0
         * data（string）hex编码数据
     * verbosity=1
-    
+
     ```
     {
       "hash" : "hash",     (string) the block hash (same as provided)
@@ -51,7 +51,7 @@
     ```
 
     * verbosity=2
-    
+
     ```
     {
       ...,                     Same output as verbosity = 1.
@@ -61,7 +61,7 @@
       ,...                     Same output as verbosity = 1.
     }
     ```
-    
+
 * 示例：
 
 ```shell
@@ -172,7 +172,7 @@
       "nextblockhash" : "hash",      (string) The hash of the next block
     }
     ```
-    
+
 * 示例
 
 ```shell
@@ -262,11 +262,11 @@ bitcoin-cli getchaintips
 
     ```
     [                       (json array of strings)
-  "transactionid"           (string) The transaction id of an in-mempool ancestor transaction
+      "transactionid"           (string) The transaction id of an in-mempool ancestor transaction
       ,...
     ]
     ```
-    
+
     * verbose=true
 
     ```
@@ -289,7 +289,7 @@ bitcoin-cli getchaintips
       }, ...
     }
     ```
-    
+
 * 示例
 
 ```shell
@@ -311,7 +311,7 @@ bitcoin-cli getchaintips
       ,...
     ]
     ```
-    
+
     * verbose=true
 
     ```
@@ -334,7 +334,7 @@ bitcoin-cli getchaintips
       }, ...
     }
     ```
-    
+
 * 示例
 
 ```shell
@@ -402,14 +402,14 @@ bitcoin-cli getchaintips
     * verbose（boolean，可选，默认false）true-返回json对象，false-返回交易id数组
 * 返回值：
     * verbose=false
-    
+
     ```
     [                     (json array of string)
       "transactionid"     (string) The transaction id
       ,...
     ]
     ```
-    
+
     * verbose=true
 
     ```
@@ -432,7 +432,7 @@ bitcoin-cli getchaintips
       }, ...
     }
     ```
-    
+
 * 示例
 
 ```shell
@@ -507,6 +507,30 @@ bitcoin-cli getchaintips
 
 ```shell
 > bitcoin-cli gettxoutsetinfo
+```
+
+### invalidateblock "blockhash"
+
+- 说明：标记某个block及其后代为无效
+- 参数：
+  - blockhash（stirng，必选）待标记的区块哈希
+- 返回值：无
+- 示例
+
+```shell
+> bitcoin-cli invalidateblock "blockhash" 
+```
+
+### reconsiderblock "blockhash"
+
+- 说明：重新标记某个block及其后代为有效，用于取消`invalidateblock`命令
+- 参数：
+  - blockhash（stirng，必选）待标记的区块哈希
+- 返回值：无
+- 示例
+
+```shell
+> bitcoin-cli reconsiderblock "blockhash" 
 ```
 
 ### preciousblock "blockhash"
@@ -1064,7 +1088,7 @@ bitcoin-cli getchaintips
     * options（object，可选）
 
     ```
-   {
+       {
      "confTarget"        (numeric, optional) Confirmation target (in blocks)
      "totalFee"          (numeric, optional) Total fee (NOT feerate) to pay, in satoshis.
                          In rare cases, the actual fee paid might be slightly higher than the specified
@@ -1081,9 +1105,9 @@ bitcoin-cli getchaintips
          "UNSET"
          "ECONOMICAL"
          "CONSERVATIVE"
-   }
+       }
     ```
-    
+
 * 返回值：
 
 ```
@@ -1396,15 +1420,15 @@ bitcoin-cli getchaintips
       ,...
       ]
     ```
-    
+
     * options（json，可选）
-    
+
     ```
       {
          "rescan": <false>,         (boolean, optional, default: true) Stating if should rescan the blockchain after all imports
       }
     ```
-    
+
 * 返回值：与输入大小相同的数组
 
 ```

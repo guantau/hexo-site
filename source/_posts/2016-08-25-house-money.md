@@ -1,8 +1,9 @@
 ---
 title: 房产投资收益计算
 date: 2016-08-25 18:36:44
-categories:
+categories: 聊点感想
 tags:
+  - house
 ---
 
 假设当前房产价格为$V$，首付款为$P$，需要贷款$D=V-P$，贷款利率为$d\%$（月利率为$\beta=d\%/12$），贷款年限为$N$个月，贷款方式为等额本息。
@@ -158,3 +159,5 @@ $$
 [1]: http://oc7urqs4c.bkt.clouddn.com/house_money.png
 [2]: http://oc7urqs4c.bkt.clouddn.com/price-money.png
 [3]: http://oc7urqs4c.bkt.clouddn.com/fin_money.png
+
+

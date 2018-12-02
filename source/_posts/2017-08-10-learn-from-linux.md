@@ -1,8 +1,9 @@
 ---
 title: 我从linux上学习到了什么
 date: 2017-08-10 12:15:55
-categories:
+categories: 聊点感想
 tags:
+  - linux
 ---
 
 

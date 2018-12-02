@@ -2,7 +2,8 @@
 title: 武装你的vim
 date: 2016-08-21 23:14:37
 categories: 弄点工具
-tags: vim
+tags: 
+    - vim
 ---
 
 vim自带的编辑、快速移动等等强大的功能，但它还不够强大，它还可以有更多的武器。
@@ -71,3 +72,5 @@ vim-indent-guides：可视化显示缩进级别。
 
 ## 12、状态栏：
 vim-powerline：可以各种设置vim状态栏。
+
+

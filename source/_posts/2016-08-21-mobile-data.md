@@ -1,8 +1,9 @@
 ---
 title: 手机数据分析的最新研究进展
 date: 2016-08-21 23:38:07
-categories:
+categories: 看点文章
 tags:
+  - mobilephone
 ---
 
 > Selected from [*Blondel et al. A survey of results on mobile phone datasets analysis. EPJ Data Science. 2015, 4(10).*][1]
@@ -112,3 +113,5 @@ Bogomolov等人通过另一种方式，从手机数据中提取指标用来预�
   [5]: http://oc7urqs4c.bkt.clouddn.com/mobile-data-17.png
   [6]: http://oc7urqs4c.bkt.clouddn.com/mobile-data-18.png
   [7]: http://oc7urqs4c.bkt.clouddn.com/mobile-data-19.png
+
+

@@ -3,6 +3,7 @@ title: 那些构建工具们
 date: 2016-08-21 22:29:59
 categories: 弄点工具
 tags:
+  - build
 ---
 
 构建工具指的是能够帮助程序员自动完成程序编译过程的工具，而并非编译器本身。其目标是更方便更快捷地完成整个编译过程。
@@ -67,3 +68,5 @@ KConfig是基于Make的构建工具，常用来构建Linux内核以及其它底�
 6. [Scons VS Other Build Tools](http://www.scons.org/wiki/SconsVsOtherBuildTools)
 7. [AAP](http://www.a-a-p.org/) 
 8. [Build Manager Tools](http://www.dmoz.org/Computers/Software/Build_Management/Build_Manager_Tools/) 
+
+

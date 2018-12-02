@@ -1,8 +1,9 @@
 ---
 title: vscode常用快捷键
 date: 2017-04-30 11:20:45
-categories:
+categories: 弄点工具
 tags:
+  - vscode
 ---
 
 
